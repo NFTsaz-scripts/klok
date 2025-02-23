@@ -1,7 +1,17 @@
 **برای اجرای کد ها از دستورات زیر بعد از وزود به سرور استفاده کنید:**
 
-`git clone https://github.com/NFTsaz-scripts/klok.git`
+**step1**
+
 ```bash
-git clone https://github.com/your-repo.git
-cd your-repo
-npm install
+tmux new -s klok
+git clone https://github.com/NFTsaz-scripts/klok.git
+cd  klok
+npm install axios uuid fs
+
+**step2**
+
+```bash
+nano token.txt
+
+```bash
+node klok.js
